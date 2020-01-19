@@ -1,0 +1,49 @@
+.heading-style {
+  font-weight: 500;
+  color: rbg(23, 43, 77);
+}
+
+.text_heading {
+  margin: 1em 0;
+}
+
+.jh1 {
+  @extend .heading-style;
+  border-collapse: collapse;
+  display: block;
+  font-size: 24px;
+  letter-spacing: -0.24px;
+  line-height: 30px;
+}
+
+.jh2 {
+  @extend .heading-style;
+  font-size: 20px;
+  letter-spacing: -0.16px;
+  line-height: 30px;
+}
+
+.jh3 {
+  @extend .heading-style;
+  font-size: 16px;
+  letter-spacing: -0.096px;
+  line-height: 20px;
+}
+
+.jh4 {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.042px;
+  line-height: 20px;
+}
+
+.jh5 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.jh6 {
+  color: rgb(107, 119, 140);
+  font-size: 12px;
+  font-weight: 600;
+}
